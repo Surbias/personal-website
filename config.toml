@@ -1,0 +1,64 @@
+theme = 'hugo-bearblog'
+baseURL = "https://website-filipe-almeida.s3.eu-west-2.amazonaws.com/"
+
+title = "Filipe Almeida"
+author = "Filipe Almeida"
+copyright = "Copyright © 2020, Filipe Almeida"
+
+languageCode = "en-GB"
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[permalinks]
+blog = "/:slug/"
+tags = "/blog/:slug"
+posts = "/:year/:month/:title/"
+
+[params]
+# The "description" of your website. This is used in the meta data of your generated html.
+description = "Filipe Almeida"
+
+# The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+# Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+favicon = "images/favicon.png"
+
+# These "images" are used for the structured data templates. This will show up, when
+# services like Twitter or Slack want to generate a preview of a link to your site.
+# See https://gohugo.io/templates/internal#twitter-cards and
+# https://gohugo.io/templates/internal#open-graph.
+images = ["images/share.png"]
+
+# Another "title" :-). This one is used as the site_name on the Hugo's internal
+# opengraph structured data template.
+# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+title = "Filipe Almeida"
+
+# This theme will, by default, inject a made-with-line at the bottom of the page.
+# You can turn it off, but we would really appreciate if you don’t :-).
+hideMadeWithLine = true
+
+[deployment]
+
+[[deployment.targets]]
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://website-filipe-almeida?region=eu-west-2"
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
