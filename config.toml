@@ -1,5 +1,5 @@
+baseURL = "https://www.filipe-almeida.com"
 theme = 'hugo-bearblog'
-baseURL = ""
 
 title = "Filipe Almeida"
 author = "Filipe Almeida"
@@ -12,11 +12,12 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 enableRobotsTXT = true
 enableEmoji = true
+canonifyURLs = true
 
 [permalinks]
 blog = "/:slug/"
 tags = "/blog/:slug"
-posts = "/:year/:month/:title/"
+posts = "/:year/:month/:slug/"
 
 [params]
 # The "description" of your website. This is used in the meta data of your generated html.
@@ -26,14 +27,10 @@ description = "Filipe Almeida"
 # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
 favicon = "images/favicon.png"
 
-# These "images" are used for the structured data templates. This will show up, when
-# services like Twitter or Slack want to generate a preview of a link to your site.
 # See https://gohugo.io/templates/internal#twitter-cards and
 # https://gohugo.io/templates/internal#open-graph.
 images = ["images/share.png"]
 
-# Another "title" :-). This one is used as the site_name on the Hugo's internal
-# opengraph structured data template.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
 title = "Filipe Almeida"
 
