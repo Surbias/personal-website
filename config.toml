@@ -1,4 +1,3 @@
-baseURL = "https://www.filipe-almeida.com"
 theme = 'hugo-bearblog'
 
 title = "Filipe Almeida"
@@ -19,6 +18,8 @@ blog = "/:slug/"
 tags = "/blog/:slug"
 
 [params]
+# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+title = "Filipe Almeida"
 description = "Personal website and blog where I share my thoughts"
 
 # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
@@ -29,11 +30,7 @@ favicon = "images/favicon.png"
 # https://gohugo.io/templates/internal#open-graph.
 images = ["images/share.png"]
 
-# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "Filipe Almeida"
-
 # This theme will, by default, inject a made-with-line at the bottom of the page.
-# You can turn it off, but we would really appreciate if you don’t :-).
 hideMadeWithLine = true
 
 [minify]
