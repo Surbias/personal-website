@@ -40,3 +40,29 @@ title = "Filipe Almeida"
 # This theme will, by default, inject a made-with-line at the bottom of the page.
 # You can turn it off, but we would really appreciate if you don’t :-).
 hideMadeWithLine = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = true
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      decimals = -1
+      keepCSS2 = false
+    [minify.tdewolff.html]
+      keepConditionalComments = false
+      keepDefaultAttrVals = false
+      keepDocumentTags = false
+      keepEndTags = false
+      keepQuotes = false
+      keepWhitespace = false
+    [minify.tdewolff.js]
+    [minify.tdewolff.json]
+    [minify.tdewolff.svg]
+      decimals = -1
+    [minify.tdewolff.xml]
+      keepWhitespace = false
