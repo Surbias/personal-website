@@ -17,11 +17,9 @@ canonifyURLs = true
 [permalinks]
 blog = "/:slug/"
 tags = "/blog/:slug"
-posts = "/:year/:month/:slug/"
 
 [params]
-# The "description" of your website. This is used in the meta data of your generated html.
-description = "Filipe Almeida"
+description = "Personal website and blog where I share my thoughts"
 
 # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
 # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
