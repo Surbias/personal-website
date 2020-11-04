@@ -1,5 +1,5 @@
 theme = 'hugo-bearblog'
-baseURL = "https://website-filipe-almeida.s3.eu-west-2.amazonaws.com/"
+baseURL = ""
 
 title = "Filipe Almeida"
 author = "Filipe Almeida"
