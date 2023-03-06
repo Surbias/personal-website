@@ -7,7 +7,7 @@ date = "2020-11-03"
 
 My name is Filipe Almeida. I consider myself a passionate problem solver who is currently interested in expanding his knowledge on server side technologies with a particular focus on cloud computing.
 
-Feel free to contact me at filipe.lhd@gmail.com.
+Feel free to contact me at filipe.lmd@gmail.com.
 
 I am also around on [github](https://www.github.com/surbias "Github Profile").
 

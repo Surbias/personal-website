@@ -60,6 +60,4 @@ Value the moment, enjoy where you are right now. No matter what is happening, le
 
 I am only touching the tip of the iceberg here when it comes to stoicism, be sure to check the [dailystoic](https://dailystoic.com) for more practical advice on how to apply this philosophy to your daily routine.
 
-There are also other people who are trying to incorporate stoicism on top their existing mindset, such as John Somnez's [Bulldog Mindset](https://bulldogmindset.com/about/) blog. This blog was actually where I first heard about this concept in the first place.
-
 I'm really interested on the ideas behind stoicism and I'm trying to apply them little by little on my life hope that it will help me improve myself as a person and professional.
